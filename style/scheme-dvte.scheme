@@ -1,1 +1,14 @@
+* style/scheme-dvte.scheme --- DVTE house style for Stata graphs
+* Usage:
+*   adopath + "style"
+*   set scheme dvte
+* Requires Stata 18 or later, which provides the stcolor base scheme.
+
+#include stcolor
+
+gsize heading medsmall
+color background white
+color plotregion white
+graphsize x 7
+graphsize y 4
 
