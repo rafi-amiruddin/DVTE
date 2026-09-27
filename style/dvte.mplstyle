@@ -1,1 +1,16 @@
+# style/dvte.mplstyle --- DVTE house style for matplotlib and seaborn
+# Usage:
+#   import matplotlib.pyplot as plt
+#   plt.style.use("style/dvte.mplstyle")
+# Load it after sns.set_theme(), which would otherwise overwrite these settings.
+
+font.size       : 9
+axes.grid       : True
+grid.color      : white
+axes.facecolor  : EAEAF2
+axes.edgecolor  : white
+axes.axisbelow  : True
+axes.titleweight: bold
+figure.figsize  : 7, 4
+svg.fonttype    : none
 
